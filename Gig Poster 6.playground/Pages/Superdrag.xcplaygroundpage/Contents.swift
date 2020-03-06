@@ -45,7 +45,11 @@ let black = Color(hue: 0, saturation: 100, brightness: 0, alpha: 100)
 
 // Begin your solution here...
 
+canvas.drawAxes()
 
+// Background
+canvas.fillColor = lightBlue
+canvas.drawEllipse(at: Point(x:200, y:300), width: 600, height: 800)
 
 /*:
  ## Use Source Control
